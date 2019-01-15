@@ -2,26 +2,51 @@
 <html>
 	<head>
 		<title>Cipher</title>
-		<script type="text/javascript" src="script.js"></script>
+		
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="cipher-block">
-				<div class="dropdown">
-					<button class="dropbtn">Dropdown</button>
-					<div class="dropdown-content">
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
-					</div>
+				<div class="select">
+					<select id="select">
+						<option disabled selected value> Select Encryption</option>
+						<option>A --> B</option>
+						<option>A --> C</option>
+						<option>A --> D</option>
+						<option>A --> E</option>
+						<option>A --> F</option>
+						<option>A --> G</option>
+						<option>A --> H</option>
+						<option>A --> I</option>
+						<option>A --> J</option>
+						<option>A --> K</option>
+						<option>A --> L</option>
+						<option>A --> M</option>
+						<option>A --> N</option>
+						<option>A --> O</option>
+						<option>A --> P</option>
+						<option>A --> Q</option>
+						<option>A --> R</option>
+						<option>A --> S</option>
+						<option>A --> T</option>
+						<option>A --> U</option>
+						<option>A --> V</option>
+						<option>A --> W</option>
+						<option>A --> X</option>
+						<option>A --> Y</option>
+						<option>A --> Z</option>
+					</select>
+					<div class="select__arrow"></div>
 				</div>
-				<textarea spellcheck="false" class="input-field"></textarea>
+				<textarea spellcheck="false" id="input-field"></textarea>
 				<div class="submit-buttons">
-					<button class="encrypt-btn">ENCRYPT</button>
-					<button class="decrypt-btn">DECRYPT</button>
+					<button class="btn" id="enc-btn">ENCRYPT</button>
+					<button class="btn" id="dec-btn">DECRYPT</button>
 				</div>
+				<div id="new-msg-field"></div>
 			</div>
 		</div>
+		<script type="text/javascript" src="script.js"></script>
 	</body>
 </html>

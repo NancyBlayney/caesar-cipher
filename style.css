@@ -1,3 +1,5 @@
+
+
 body {
 	box-sizing: border-box;
 	background: #133737;
@@ -31,6 +33,44 @@ textarea {
 textarea:focus{
 	border: 3px solid #555;
 	outline: 0;
+}
+
+
+.select{
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  width: 25%;
+  }
+
+select {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 15px;
+  outline: 0;
+  border: 0;
+  border-radius: 0;
+  background: #E6E6E6;
+  color: #7B7B7B;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.select__arrow{
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 0;
+  height: 0;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 8px 5px 0 5px;
+  border-color: black transparent transparent transparent;
+}
+select:hover{
+	color: #000000;
+  background: #CCCCCC;
 }
 
 /* Dropdown Button */
