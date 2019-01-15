@@ -2,13 +2,14 @@
 <html>
 	<head>
 		<title>Cipher</title>
-		
+		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
 		<div id="wrapper">
 			<div id="cipher-block">
-				<div class="select">
+				<h1 class="title">Caesar Cipher</h1>
+				<div class="select-list">
 					<select id="select">
 						<option disabled selected value> Select Encryption</option>
 						<option>A --> B</option>
@@ -44,8 +45,8 @@
 					<button class="btn" id="enc-btn">ENCRYPT</button>
 					<button class="btn" id="dec-btn">DECRYPT</button>
 				</div>
-				<div id="new-msg-field"></div>
 			</div>
+			<div id="new-msg-field"></div>
 		</div>
 		<script type="text/javascript" src="script.js"></script>
 	</body>

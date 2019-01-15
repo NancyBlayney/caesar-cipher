@@ -14,6 +14,7 @@ function Cipher(input, shift, encrypted){
 	}
 	this.showNewMsg = function(msg){
 		var myNode = document.getElementById("new-msg-field");
+		myNode.style.opacity = 1;
 		while (myNode.firstChild) {
 		    myNode.removeChild(myNode.firstChild);
 		}
